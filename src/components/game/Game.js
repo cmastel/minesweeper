@@ -56,8 +56,10 @@ function Game() {
       updatedBoard[x][y].isFlagged = true;
       dispatch({ type: SET_FLAG });
       mines--;
+      if (checkWin(gameBoard)) {
+        setGameStatus("You win!!!");
+      }
     }
-    setMinesRemaining(mines);
   };
 
   // Create tile components based on gameArray
