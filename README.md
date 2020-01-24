@@ -9,24 +9,24 @@ The purpose in Minesweeper is to find and mark all of the mines hidden. This is 
 ## Final Product
 
 Game Start:
-!["start"](public/images/minesweeper-start.png)
+<img src="public/images/minesweeper-start.png" alt="start" width="300"/>
 
 Mid-game:
-!["play"](public/images/minesweeper-play.png)
+<img src="public/images/minesweeper-play.png" alt="play" width="300"/>
 
 Lose game:
-!["lose"](public/images/minesweeper-lose.png)
+<img src="public/images/minesweeper-lose.png" alt="lose" width="300"/>
 
 Win game:
-!["win"](public/images/minesweeper-win.png)
+<img src="public/images/minesweeper-win.png" alt="win" width="300"/>
 
 
 
 ## Available Scripts
 
-In the project directory, you can run:
 
-### 'npm install'
+### `npm install`
+In the project directory, you can run `npm install`
 
 This will install all of the dependencies required to run the app.
 
