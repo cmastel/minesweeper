@@ -1,0 +1,16 @@
+@import "../../styles/base";
+
+.nav {
+  display: flex;
+  align-items: center;
+  background-color: $primary-main;
+  height: 100px;
+  margin-bottom: 50px;
+
+  &_heading {
+    margin-left: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    color: $primary-text;
+  }
+}

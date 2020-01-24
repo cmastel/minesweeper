@@ -1,0 +1,56 @@
+@import '../../styles/base';
+
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: 0px 300px;
+    max-width: 480px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+
+    &_title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $primary-dark;
+        color: $primary-text;
+        margin: 0px 0px;
+
+        h3 {
+            margin-left: 10px;
+        }
+
+        &_lose {
+            color: $secondary-main;
+        }
+
+        &_win {
+            color: $success-main;
+        }
+    }
+
+    &_button {
+        background-color: $secondary-main;
+        color: $secondary-text;
+        height: 30px;
+        margin-right: 10px;
+        border-radius: 6px;
+    }
+
+    &_button:hover {
+        background-color: $secondary-light;
+    }
+
+    &_grid {
+        display: grid;
+        grid-template-columns: repeat(16, 1fr);
+        grid-gap: 0px;
+        width: 30px;
+    }
+
+    &_clear {
+        display: table;
+    }
+}
